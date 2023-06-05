@@ -1,0 +1,15 @@
+//abstracts
+@import "./abstracts/variables";
+
+//base
+@import "./base/typography";
+
+//components
+@import "./components/botones";
+@import "./components/cards";
+
+//layout
+@import "./layout/navbar";
+
+//pages
+@import "./pages/principal";

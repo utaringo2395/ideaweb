@@ -1,3 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@font-face {
+  font-family: "Visby";
+  font-style: normal;
+  font-weight: 200;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyThin.woff") format("woff");
+}
+@font-face {
+  font-family: "Visby";
+  font-style: italic;
+  font-weight: 200;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyThin Italic.woff") format("woff");
+}
+/*Light*/
+@font-face {
+  font-family: "Visby";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyLight.woff") format("woff");
+}
+@font-face {
+  font-family: "Visby";
+  font-style: italic;
+  font-weight: 300;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyLight Italic.woff") format("woff");
+}
+/*regular*/
+@font-face {
+  font-family: "Visby";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyRegular.woff") format("woff");
+}
+@font-face {
+  font-family: "Visby";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyItalic.woff") format("woff");
+}
+/*Medium*/
+@font-face {
+  font-family: "Visby";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyMedium.woff") format("woff");
+}
+@font-face {
+  font-family: "Visby";
+  font-style: italic;
+  font-weight: 500;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyMedium Italic.woff") format("woff");
+}
+/*Semi bold*/
+@font-face {
+  font-family: "Visby";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbySemibold.woff") format("woff");
+}
+@font-face {
+  font-family: "Visby";
+  font-style: italic;
+  font-weight: 600;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbySemibold Italic.woff") format("woff");
+}
+/*Bold*/
+@font-face {
+  font-family: "Visby";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyBold.woff") format("woff");
+}
+@font-face {
+  font-family: "Visby";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyBold Italic.woff") format("woff");
+}
+/*Extra bold*/
+@font-face {
+  font-family: "Visby";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyExtrabold.woff") format("woff");
+}
+@font-face {
+  font-family: "Visby";
+  font-style: italic;
+  font-weight: 800;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyExtrabold Italic.woff") format("woff");
+}
+/*Heavy*/
+@font-face {
+  font-family: "Visby";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyHeavy.woff") format("woff");
+}
+@font-face {
+  font-family: "Visby";
+  font-style: italic;
+  font-weight: 900;
+  src: local("Visby"), url("https://fonts.cdnfonts.com/s/72421/VisbyHeavy Italic.woff") format("woff");
+}
+.btnAzul {
+  font-family: "Visby";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #fff;
+  background-color: #270089;
+  padding: 12px 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+.btnAzul:hover {
+  background: #6D3DE7;
+  color: #fff;
+  transition: 0.25s ease-out;
+}
 
+.cardInicio {
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #D9D9D9;
+  width: 400px;
+  min-width: 270px;
+}
+.cardInicio .imgWrapper {
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.cardInicio .imgWrapper img {
+  width: auto;
+  height: 100%;
+}
+.cardInicio .cardBody .titulo {
+  font-family: "Visby";
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #270089;
+}
+.cardInicio .cardBody .text {
+  font-family: "Nunito Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #292929;
+}
+
+.navbarRuta {
+  padding-top: 1.5rem;
+}
+.navbarRuta .navbar-brand {
+  padding: 12px;
+  background-image: url("/src/assets/img/logoBlanco.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 145px;
+  /*img {
+      height: 100%;
+      width: auto;
+  }*/
+}
+@media (max-width: 575.98px) {
+  .navbarRuta .navbar-brand {
+    height: 85px;
+    width: 132px;
+  }
+}
+.navbarRuta button.navbar-toggler {
+  background: #fff;
+}
+.navbarRuta .navbar-collapse .navbar-nav {
+  font-family: "Visby";
+  font-weight: 700;
+  font-size: 1rem;
+}
+@media (max-width: 991.98px) {
+  .navbarRuta .navbar-collapse .navbar-nav {
+    background: #fff;
+    padding: 8px 0;
+    border-radius: 4px;
+    text-align: end;
+  }
+}
+.navbarRuta .navbar-collapse .navbar-nav li.nav-item {
+  margin: 10px 16px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.35s;
+}
+@media (max-width: 991.98px) {
+  .navbarRuta .navbar-collapse .navbar-nav li.nav-item {
+    margin: 5px 0;
+  }
+}
+.navbarRuta .navbar-collapse .navbar-nav li.nav-item:hover {
+  border-bottom: 2px solid #fff;
+}
+.navbarRuta .navbar-collapse .navbar-nav li.nav-item a.nav-link {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+@media (max-width: 991.98px) {
+  .navbarRuta .navbar-collapse .navbar-nav li.nav-item a.nav-link {
+    color: #270089;
+    padding: 10px 18px;
+    text-align: right;
+  }
+  .navbarRuta .navbar-collapse .navbar-nav li.nav-item a.nav-link:hover {
+    background: #D9D9D9;
+    color: #270089;
+  }
+}
+
+#inicio {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+#inicio .bgGrafico {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-image: url("/src/assets/img/bgFiguras.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#inicio .imgWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #6aff7f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -10;
+}
+#inicio .imgWrapper::before {
+  background-color: #00007e;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  mix-blend-mode: lighten;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+#inicio .imgWrapper img {
+  filter: grayscale(100%) contrast(1) blur(0px);
+  flex: 1 0 100%;
+  height: 100%;
+  max-width: 100%;
+  mix-blend-mode: multiply;
+  object-fit: cover;
+  object-position: 85% 50%;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+#inicio .tituloImg {
+  margin-top: 400px;
+}
+@media (max-width: 575.98px) {
+  #inicio .tituloImg {
+    margin-top: 30%;
+  }
+}
+#inicio .bRightDivider {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 150;
+}
 
 /*# sourceMappingURL=main.css.map */
