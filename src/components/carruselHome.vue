@@ -6,20 +6,31 @@ import card from '../components/card.vue';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 // import required modules
 import { Pagination } from 'swiper';
 </script>
 <template>
     <div>
-        <div class="container my-5">
+        <div class="container mExtra">
             <div class="row">
                 <div class="col-lg-12">
                     <swiper
-                        :slidesPerView="3"
                         :spaceBetween="30"
-                        :pagination="{
-                        clickable: true,
+                        :breakpoints="{
+                            '640': {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            '768': {
+                                slidesPerView: 1,
+                                spaceBetween: 40,
+                            },
+                            '1024': {
+                                slidesPerView: 3,
+                                spaceBetween: 50,
+                            },
                         }"
                         :modules="modules"
                         class="mySwiper"
@@ -71,3 +82,11 @@ setup() {
 },
 };
 </script>
+
+<style scoped lang="scss">
+.swiper-slide {
+    @media (max-width: 640px) {
+        justify-content: center;
+    }
+}
+</style>

@@ -108,4 +108,37 @@
     font-weight: 900;
     src: local('Visby'), url('https://fonts.cdnfonts.com/s/72421/VisbyHeavy Italic.woff') format('woff');
   }
+
+.titulo {
+  font-family: $f-principal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  font-style: italic;
+  color: $c-marino;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.subtitulo {
+  font-family: $f-principal;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.texto {
+  font-family: $f-texto;
+  font-weight: 400;
+  font-size: 1rem;
+  color: $c-carbon;
+  line-height: 1.25;
+}
+
+.textoBold {
+  font-family: $f-texto;
+  font-weight: 700;
+  font-size: 1rem;
+  color: $c-carbon;
+  line-height: 1.25;
+}
   

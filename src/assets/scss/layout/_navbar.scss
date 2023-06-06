@@ -45,6 +45,10 @@
 
                 &:hover {
                     border-bottom: 2px solid $c-blanco;
+                    @media (max-width: 991.98px) {
+                        border-bottom: none;
+                        border-bottom: 2px solid transparent;
+                    }
                 }
                 a.nav-link {
                     text-transform: uppercase;
@@ -62,6 +66,18 @@
                             color: $c-marino;
                         }
                     }
+                }
+            }
+            a.dropdown-item {
+                font-weight: 700;
+                font-size: 1rem;
+                text-transform: uppercase;
+                color: $c-marino;
+                text-align: left;
+                @media (max-width: 991.98px) {
+                    text-align: right;
+                    padding-right: 30px;
+                    font-weight: 500;
                 }
             }
         }

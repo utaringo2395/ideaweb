@@ -1,6 +1,7 @@
 <script setup>
 import navbar from '../components/navbar.vue'
 import carruselHome from '../components/carruselHome.vue'
+import contacto from '../components/contacto.vue'
 </script>
 
 <template>
@@ -24,6 +25,7 @@ import carruselHome from '../components/carruselHome.vue'
   
   <main>
     <carruselHome />
+    <contacto />
   </main>
 </template>
 

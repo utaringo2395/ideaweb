@@ -16,16 +16,25 @@
                                     <router-link class="nav-link active" to="/">Inicio</router-link>
                                 </li>
                                 <li class="nav-item my-auto">
-                                    <a class="nav-link" href="#mapa">Mapa</a>
+                                    <a class="nav-link" href="#">Deportes</a>
                                 </li>
                                 <li class="nav-item my-auto">
-                                    <a class="nav-link" href="#">Viñedos y Vinícolas</a>
+                                    <a class="nav-link" href="#">Deportes Adaptados</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Eventos
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="my-2"><a class="dropdown-item" href="#">Nacionales</a></li>
+                                        <li class="my-2"><a class="dropdown-item" href="#">Internacionales</a></li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item my-auto">
-                                    <a class="nav-link" href="#">Atractivos complementarios</a>
+                                    <a class="nav-link" href="#">Prensa</a>
                                 </li>
                                 <li class="nav-item my-auto">
-                                    <a class="nav-link" href="#" target="_blank">Convocatorias</a>
+                                    <a class="nav-link" href="#">Blog</a>
                                 </li>
                             </ul>
                         </div>
@@ -112,10 +121,14 @@
 
                 &:hover {
                     border-bottom: 2px solid #270089;
-                    transition: all 0.35s;
+                    //transition: all 0.15s;
+                    @media (max-width: 991.98px) {
+                        border-bottom: none;
+                    }
                 }
                 @media (max-width: 991.98px) {
                     margin: 5px 0;
+                    border-bottom: 2px solid transparent;
                 }
                 a.nav-link {
                     text-transform: uppercase;

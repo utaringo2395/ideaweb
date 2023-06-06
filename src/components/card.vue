@@ -8,7 +8,7 @@
                 <h5 class="titulo">Card title</h5>
                 <p class="text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <div class="text-end mt-4">
-                    <a href="#" class="btnAzul">Go somewhere</a>
+                    <a href="#" class="btnAzul">Conocer más</a>
                 </div>
             </div>
         </div>
