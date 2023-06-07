@@ -16,18 +16,22 @@
                                     <router-link class="nav-link active" to="/">Inicio</router-link>
                                 </li>
                                 <li class="nav-item my-auto">
-                                    <a class="nav-link" href="#">Deportes</a>
+                                    <router-link class="nav-link" to="/deportes">Deportes</router-link>
                                 </li>
                                 <li class="nav-item my-auto">
-                                    <a class="nav-link" href="#">Deportes Adaptados</a>
+                                    <router-link class="nav-link" to="/">Deportes Adaptados</router-link>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Eventos
                                     </a>
                                     <ul class="dropdown-menu">
-                                        <li class="my-2"><a class="dropdown-item" href="#">Nacionales</a></li>
-                                        <li class="my-2"><a class="dropdown-item" href="#">Internacionales</a></li>
+                                        <li class="my-2">
+                                            <router-link class="dropdown-item" to="/">Nacionales</router-link>
+                                        </li>
+                                        <li class="my-2">
+                                            <router-link class="dropdown-item" to="/">Internacionales</router-link>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item my-auto">

@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import principal from '../views/principal.vue'
+import deportes from '../views/deportes.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,6 +14,11 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       //component: () => import('../views/AboutView.vue')
     },
+    {
+      path: '/deportes',
+      name: 'deportes',
+      component: deportes
+    }
   ],
   scrollBehavior(to, from, savedPosition) {
     // always scroll to top

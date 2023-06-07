@@ -1,8 +1,9 @@
-#inicio {
+#headerBg_1 {
     position: relative;
-    height: 100vh;
-    overflow: hidden;
-
+    height: 570px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
     .bgGrafico {
         position: absolute;
         top: 0;
@@ -16,12 +17,11 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-
     .imgWrapper {
         position: absolute;
-        top: 0;
+        bottom: 0;
         left: 0;
-        background-color: #6aff7f;
+        background-color: $c-rosa;
         display: flex;
         justify-content: flex-start;
         align-items: start;
@@ -31,7 +31,7 @@
         z-index: -10;
 
         &::before {
-            background-color:#00007e;
+            background-color: #122560;
             bottom: 0;
             content: '';
             height: 100%;
@@ -58,11 +58,18 @@
         }
     }
 
-    .tituloImg {
-        margin-top: 400px;
-        @media (max-width: 575.98px) {
-            margin-top: 30%;
-        }
+    .tituloHeader {
+        font-family: 'Visby CF';
+        font-style: italic;
+        font-weight: 800;
+        font-size: 7.25rem;
+        line-height: 1;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
 
+        color: rgba(255, 255, 255, 0.15);
+        -webkit-text-stroke: 2px $c-blanco;
+        margin-bottom: 15%;
+        padding-top: 20px;
     }
 }

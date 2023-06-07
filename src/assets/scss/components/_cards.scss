@@ -19,28 +19,6 @@
         img {
             width: auto;
             height: 100%;
-
-            @media (max-width: 640px) {
-                height: auto;
-                width: 100%;
-            }
-        }
-    }
-    .cardBody {
-        .titulo {
-            font-family: $f-principal;
-            font-weight: 700;
-            font-size: 20px;
-            text-transform: uppercase;
-            line-height: 1.2;
-            color: $c-marino;
-        }
-        .text {
-            font-family: $f-texto;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 1.2;
-            color: $c-carbon;
         }
     }
 }

@@ -2,6 +2,7 @@
 import navbar from '../components/navbar.vue'
 import carruselHome from '../components/carruselHome.vue'
 import contacto from '../components/contacto.vue'
+import navend from '../components/navend.vue'
 </script>
 
 <template>
@@ -27,6 +28,8 @@ import contacto from '../components/contacto.vue'
     <carruselHome />
     <contacto />
   </main>
+
+  <navend />
 </template>
 
 <style scoped lang="scss">

@@ -17,7 +17,7 @@ import { Pagination } from 'swiper';
             <div class="row">
                 <div class="col-lg-12">
                     <swiper
-                        :spaceBetween="30"
+                        :spaceBetween="20"
                         :breakpoints="{
                             '640': {
                                 slidesPerView: 1,
@@ -25,11 +25,11 @@ import { Pagination } from 'swiper';
                             },
                             '768': {
                                 slidesPerView: 1,
-                                spaceBetween: 40,
+                                spaceBetween: 20,
                             },
                             '1024': {
                                 slidesPerView: 3,
-                                spaceBetween: 50,
+                                spaceBetween: 20,
                             },
                         }"
                         :modules="modules"

@@ -7,20 +7,8 @@
             height: 100%;
         }
     }
-    .titulo {
-        font-family: $f-principal;
-        font-weight: 700;
-        font-size: 2.25rem;
-        font-style: italic;
-        color: $c-marino;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-    }
     p, a {
-        font-family: 'Nunito Sans';
-        font-weight: 400;
         font-size: 1.125rem;
-        color: $c-carbon;
     }
     .infoWrap {
         display: flex;

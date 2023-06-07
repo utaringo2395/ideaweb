@@ -107,9 +107,9 @@
   font-weight: 700;
   font-size: 2.25rem;
   font-style: italic;
-  color: #270089;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  color: #270089;
 }
 
 .subtitulo {
@@ -117,6 +117,9 @@
   font-style: italic;
   font-weight: 700;
   font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #270089;
 }
 
 .texto {
@@ -133,6 +136,86 @@
   font-size: 1rem;
   color: #292929;
   line-height: 1.25;
+}
+
+.c-marino {
+  color: #270089;
+}
+
+.c-verde {
+  color: #6AFF7F;
+}
+
+.c-rosa {
+  color: #DF1683;
+}
+
+.c-azul {
+  color: #3CB4E5;
+}
+
+.c-morado {
+  color: #6D3DE7;
+}
+
+.c-amarillo {
+  color: #FFCD00;
+}
+
+.c-gris {
+  color: #D9D9D9;
+}
+
+.c-carbon {
+  color: #292929;
+}
+
+.c-blanco {
+  color: #fff;
+}
+
+.c-negro {
+  color: #000;
+}
+
+.bg-marino {
+  background-color: #270089;
+}
+
+.bg-verde {
+  background-color: #6AFF7F;
+}
+
+.bg-rosa {
+  background-color: #DF1683;
+}
+
+.bg-azul {
+  background-color: #3CB4E5;
+}
+
+.bg-morado {
+  background-color: #6D3DE7;
+}
+
+.bg-amarillo {
+  background-color: #FFCD00;
+}
+
+.bg-gris {
+  background-color: #D9D9D9;
+}
+
+.bg-carbon {
+  background-color: #292929;
+}
+
+.bg-blanco {
+  background-color: #fff;
+}
+
+.c-negro {
+  color: #000;
 }
 
 .btnAzul {
@@ -179,27 +262,6 @@
   width: auto;
   height: 100%;
 }
-@media (max-width: 640px) {
-  .cardInicio .imgWrapper img {
-    height: auto;
-    width: 100%;
-  }
-}
-.cardInicio .cardBody .titulo {
-  font-family: "Visby";
-  font-weight: 700;
-  font-size: 20px;
-  text-transform: uppercase;
-  line-height: 1.2;
-  color: #270089;
-}
-.cardInicio .cardBody .text {
-  font-family: "Nunito Sans";
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.2;
-  color: #292929;
-}
 
 .mExtra {
   margin-top: 3%;
@@ -210,6 +272,113 @@
     margin-top: 15%;
     margin-bottom: 15%;
   }
+}
+
+.bRightDivider {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  z-index: 150;
+}
+
+footer {
+  padding: 50px 10px 30px;
+  border-top: 1px solid #D9D9D9;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .logoWrap {
+  width: 350px;
+  height: 60px;
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 575.98px) {
+  footer .logoWrap {
+    width: 260px;
+    height: 43px;
+  }
+}
+footer .logoWrap img {
+  width: 100%;
+  height: auto;
+}
+
+#headerBg_1 {
+  position: relative;
+  height: 570px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+#headerBg_1 .bgGrafico {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-image: url("/src/assets/img/bgFiguras.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#headerBg_1 .imgWrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #DF1683;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -10;
+}
+#headerBg_1 .imgWrapper::before {
+  background-color: #122560;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  mix-blend-mode: lighten;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+#headerBg_1 .imgWrapper img {
+  filter: grayscale(100%) contrast(1) blur(0px);
+  flex: 1 0 100%;
+  height: 100%;
+  max-width: 100%;
+  mix-blend-mode: multiply;
+  object-fit: cover;
+  object-position: 85% 50%;
+  opacity: 1;
+  position: relative;
+  width: 100%;
+}
+#headerBg_1 .tituloHeader {
+  font-family: "Visby CF";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 7.25rem;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.15);
+  -webkit-text-stroke: 2px #fff;
+  margin-bottom: 15%;
+  padding-top: 20px;
 }
 
 .navbarRuta {
@@ -308,20 +477,8 @@
   width: 100%;
   height: 100%;
 }
-#contacto .titulo {
-  font-family: "Visby";
-  font-weight: 700;
-  font-size: 2.25rem;
-  font-style: italic;
-  color: #270089;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
 #contacto p, #contacto a {
-  font-family: "Nunito Sans";
-  font-weight: 400;
   font-size: 1.125rem;
-  color: #292929;
 }
 #contacto .infoWrap {
   display: flex;
@@ -395,13 +552,6 @@
   #inicio .tituloImg {
     margin-top: 30%;
   }
-}
-#inicio .bRightDivider {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: auto;
-  z-index: 150;
 }
 
 /*# sourceMappingURL=main.css.map */
