@@ -9,7 +9,7 @@ import navend from '../components/navend.vue'
   <navbar />
   <header id="inicio">
     <div class="imgWrapper">
-      <img src="../assets/img/bgInicio.jpg" alt="">
+      <img src="../assets/img/bgs/inicio.jpg" alt="">
     </div>
     <div class="bgGrafico"></div>
     
