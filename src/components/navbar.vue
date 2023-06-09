@@ -21,6 +21,9 @@
                                 <li class="nav-item my-auto">
                                     <router-link class="nav-link" to="/">Deportes Adaptados</router-link>
                                 </li>
+                                <li class="nav-item my-auto">
+                                    <router-link class="nav-link" to="/">Galería</router-link>
+                                </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Eventos

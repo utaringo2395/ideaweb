@@ -4,11 +4,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    @media (max-width:  575.98px) {
-        height: 370px;
-    }
+   
     @media (max-width:  991.98px) {
         height: 450px;
+    }
+    @media (max-width:  575.98px) {
+        height: 370px;
     }
     .bgGrafico {
         position: absolute;
@@ -82,7 +83,7 @@
         @media (max-width:  575.98px) {
             font-size: 3.15rem;
             -webkit-text-stroke: 1px $c-blanco;
-            margin-bottom: 25%;
+            margin-bottom: 20%;
         }
     }
 }

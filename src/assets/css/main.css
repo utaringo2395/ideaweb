@@ -317,14 +317,14 @@ footer .logoWrap img {
   justify-content: flex-start;
   align-items: flex-end;
 }
-@media (max-width: 575.98px) {
-  .headerBg_1 {
-    height: 370px;
-  }
-}
 @media (max-width: 991.98px) {
   .headerBg_1 {
     height: 450px;
+  }
+}
+@media (max-width: 575.98px) {
+  .headerBg_1 {
+    height: 370px;
   }
 }
 .headerBg_1 .bgGrafico {
@@ -399,7 +399,7 @@ footer .logoWrap img {
   .headerBg_1 .tituloHeader {
     font-size: 3.15rem;
     -webkit-text-stroke: 1px #fff;
-    margin-bottom: 25%;
+    margin-bottom: 20%;
   }
 }
 
