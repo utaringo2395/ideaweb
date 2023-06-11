@@ -2,20 +2,21 @@
 @import "./abstracts/variables";
 
 //base
-@import "./base/typography";
 @import "./base/colors";
+@import "./base/typography";
 
 //components
 @import "./components/botones";
 @import "./components/cards";
 @import "./components/divider";
 @import "./components/navend";
+@import "./components/scrollList";
 
 //layout
+@import "./layout/contacto";
 @import "./layout/headerInt";
 @import "./layout/navbar";
-@import "./layout/contacto";
 
 //pages
-@import "./pages/principal";    	
 @import "./pages/deportes";
+@import "./pages/principal";    	

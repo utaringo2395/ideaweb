@@ -1,0 +1,43 @@
+.scrollList {
+    height: 500px;
+    width: 100%;
+    background: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    padding: 10px 0;
+
+    .scrollItem {
+        label.depItem {
+            padding: 5px 5px 5px 10px;
+            transition: 0.25s ease-out;
+            border-radius: 3px;
+            margin-bottom: 5px;
+            display: inline-block;
+            font-family: $f-principal;
+            font-weight: 600;
+            font-size: 18px;
+            letter-spacing: 0.05em;
+            text-decoration: none;
+            text-align: left;
+            color: $c-negro; 
+            width: 100%;       
+            &:hover {
+                background: #FFEBF6;
+            }
+            /*&:checked + .btn {
+                border-color: none;
+                background: #FFEBF6;
+            }*/
+        }
+    
+        .btn-check:checked + .btn, :not(.btn-check) +  .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+            color: $c-blanco;
+            background-color: $c-rosa;
+            border-color: #FFEBF6;
+        }
+    }
+
+    
+
+}

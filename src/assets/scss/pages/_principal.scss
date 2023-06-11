@@ -2,7 +2,9 @@
     position: relative;
     height: 100vh;
     overflow: hidden;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .bgGrafico {
         position: absolute;
         top: 0;
@@ -59,9 +61,10 @@
     }
 
     .tituloImg {
-        margin-top: 400px;
         @media (max-width: 575.98px) {
             margin-top: 30%;
+            width: 100%;
+            height: auto;
         }
 
     }

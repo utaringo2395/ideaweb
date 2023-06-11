@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import principal from '../views/principal.vue'
 import deportes from '../views/deportes.vue'
+import galeria from '../views/galeria.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,7 +19,12 @@ const router = createRouter({
       path: '/deportes',
       name: 'deportes',
       component: deportes
-    }
+    },
+    {
+      path: '/galeria',
+      name: 'galeria',
+      component: galeria
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     // always scroll to top
