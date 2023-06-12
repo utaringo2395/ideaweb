@@ -283,6 +283,60 @@
   z-index: 150;
 }
 
+.galeriaContent {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.galeriaContent .galeriaThumb {
+  max-width: 300px;
+  min-width: 275px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 3px;
+}
+.galeriaContent .galeriaThumb .imgThumb {
+  width: 100%;
+  height: auto;
+}
+.galeriaContent .galeriaThumb .sheer {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.38);
+  width: 100%;
+  height: 100%;
+}
+.galeriaContent .galeriaThumb .infoThumb {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.galeriaContent .galeriaThumb .infoThumb .text {
+  font-family: "Visby";
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3px;
+}
+.galeriaContent .galeriaThumb .infoThumb .fecha {
+  font-family: "Visby";
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+}
+
 footer {
   padding: 50px 10px 30px;
   border-top: 1px solid #D9D9D9;
